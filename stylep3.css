@@ -1,0 +1,32 @@
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    animation: blink 0.8s infinite; /* 1s duration, infinite loop */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.btn{
+
+    width: 247px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    background: white;
+    color: black;
+}
